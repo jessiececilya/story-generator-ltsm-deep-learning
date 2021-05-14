@@ -9,3 +9,6 @@ predict nth word using n-1 words. The n-gram sequences were padded to ensure all
 
 LSTM in its core, preserves information from inputs that has passed through it using the hidden state. I have used Bidirectional LSTM, so that model trains the 
 data based on the past and future input sequences to ensure there exists a flow in the story that is generated. 
+
+LSTM theory: https://colah.github.io/posts/2015-08-Understanding-LSTMs/#:~:text=Long%20Short%20Term%20Memory%20networks,many%20people%20in%20following%20work.
+
