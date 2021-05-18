@@ -4,7 +4,7 @@ Story generator using Deep learning- LTSM model trained on Microsoft Open Resear
 Deep Learning is found in every application we use from Chatbots, Face recognition etc. 
 
 In this project I have built a deep learning model that could write a short story. Microsoft’s Research Open Data repository has been a boon for this project of mine. 
-I have used the dataset “Hippocorpus” which is a collection of 6854 dairy like short stories to train the model. I have generated ngram sequences to 
+I have used the dataset “Hippocorpus” which is a collection of 6854 diary like short stories to train the model. I have generated ngram sequences to 
 predict nth word using n-1 words. The n-gram sequences were padded to ensure all the input sequences are of uniform length
 
 LSTM in its core, preserves information from inputs that has passed through it using the hidden state. I have used Bidirectional LSTM, so that model trains the 
